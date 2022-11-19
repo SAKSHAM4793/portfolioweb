@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website-Saksham Yadav </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/533c67a939.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header" class="header1">
+        <div class="container">
+            
+            <nav>
+                <!-- <img src="myimage\images.jfif"> -->
+                <img src="Portfolio-Transparent-PNG.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#container">Home </a> </li>
+                    <li> <a href="#about">About </a> </li>
+                    <li> <a href="#services">Project </a> </li>
+                    <li> <a href="#portfolio">Skill </a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <p> Web Development Enthusiast</p>
+                <h1> Hi, I'm <span>Saksham Yadav </span><br>From India</h1>
+                <p> As a Web Development intern, I am
+                    Seeking an opportunity to extend
+                    my web development <br>skill and
+                    knowledge and eager to obtain a
+                    challenging position at a
+                    prestigious company that <br>will
+                    expand my learning and build
+                    upon my developer skills.
+                    </p>
+            </div>
+           
+        </div>
+
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="saksham.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Saksham Yadav, i am from Gorakhpur but currently living in Noida sector-62.
+                        <br>I have done my Bachloer of technology in Mechanical Engineering from BIT,Gorakhpur
+                        
+                        <br>I have done my 10th and 12th from Murari Inter College,Sahjanawa.<br>
+                        My hobbies are playing cricket and watching superheroes Movies.<br>
+                        My Eagerness of learning new things are my Strength.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Develooment</span> <br> Web app Develooment</li>
+                            <li><span>Front-end web Develooment</span> <br> Web app Develooment</li>
+                            <li><span>Python</span> <br> Basic Level</li>
+                            <li><span>HTML5</span> <br> Basic Level</li>
+                            <li><span>CSS3</span> <br> Basic Level</li>
+                            <li><span>JavaScript</span> <br> Basic Level</li>
+                            <li><span>React.js</span> <br> Basic Level</li>
+                            <li><span>Bootstrap</span> <br> Basic Level</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>july,2022-jan,2023<br><span>Full-Stack Web Develooment Trainee-AlmaBetter </span> <br>
+
+                                --6 month training promgram of full-stack Web Development</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents abc1" id="education">
+                        <ul>
+                            <li>2018-2022<br><span>Bachloer's technology </span>BIT,Gorakhpur
+                                <br>8.19 CGPA
+                            </li>
+                            <li>2016-2018<br><span>Intermediate(12th)</span> MIC,Sahjanawa<br>
+                                Percentage-80.8%</li>
+                            <li>2014-2016<br><span>High School(10th)</span> MIC,Sahjanawa<br>
+                                Percentage-75.83%</li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Project</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>HTML Project</h2>
+                    <h3>BMI Calculator</h3>
+                    <h3> Simple calculator</h3>
+                    <h3>Survey form</h3>
+                    <a href="https://github.com/SAKSHAM4793"> See more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Front-end</h2>
+                    <h3>kid Education Page</h3>
+                    <h3>loging page</h3>
+                    <a href="https://github.com/SAKSHAM4793"> See more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Back-End</h2>
+                    
+                    <a href="https://github.com/SAKSHAM4793"> Learning...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------My skill--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Skill</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="MERN-Stack.png">
+                    <div class="layer">
+                        <h3>Language</h3>
+                        <p>C promgram</p>
+                        <p>Python</p>
+                        <p>JavaScript</p>
+                        <a href="#"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="react-with-nodejs.png" height="200px">
+                    <div class="layer">
+                        <h3>Front-end Develooment skill</h3>
+                        <p>HTML</p>
+                        <p>Css</p>
+                        <p>JavaScript</p>
+                        <p>Bootstrap</p>
+                        <p>React</p>
+                        <a href="#"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="backend.jfif">
+                    <div class="layer">
+                        <h3>Back-end development skill</h3>
+                        <p>Learning...</p>
+                        <a href="#"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+
+
+
+        </div>
+
+
+    </div>
+    <!-- -----------------contect---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact ME</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>contact@-sakshamyadav4793@gmail.com</p>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>6387280856</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/saksham-yadav-43166a1a9">
+                             <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/sakshamyadav_02/"> <i class="fa-brands fa-instagram"></i></i></a>
+                        <a href="https://m.facebook.com/"> <i class="fa-brands fa-facebook"></i></i></a>
+                        <a href="https://twitter.com/Saksham41850723?t=tSKck4lbvm7wEyx6uwRRyg&s=09">
+                             <i class="fa-brands fa-twitter"></i></i></i></a>
+                        <a href="#"> <i class="fa-brands fa-square-whatsapp"></i></i></i></a>
+
+                    </div>
+                    <a href="myimage\CV-saksham-3.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" class="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" class="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" row="6" class="text" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+
+            document.getElementById(tabname).classList.add("active-tab");
+            //document.getElementById(tabname).classList.add("abc1");
+        }
+    </script>
+    <script>
+        var sidemen=document.getElementById("sidemenu");
+       
+        function openmenu(){
+            sidemen.style.right="0";
+        }
+        function closemenu(){
+            sidemen.style.right="-200px";
+        }
+    </script>
+</body>
+
+</html>
